@@ -54,14 +54,14 @@ interests:
   - Sociology
   - Natural Language Processing
 education:
-  - area: RA Social Simulation
-    institution: Computational Social Science Research Center, Zhejiang University
+  - area: RA Computational Social Science
+    institution: Zhejiang University
     date_start: 2024-01-01
     date_end: ''
     summary: Research Assistant
 
   - area: MA Computational Sociology
-    institution: Faculty of Public Administration, Central South University
+    institution: Central South University
     date_start: 2021-09-01
     date_end: 2024-07-01
     summary: |
@@ -74,7 +74,7 @@ education:
       - Psychosocial and Behavioural Studies
 
   - area: BM Labor and Social Security
-    institution: Faculty of Political Science and Public Administration, Shan Xi University
+    institution: Shan Xi University
     date_start: 2017-09-01
     date_end: 2021-07-01
     summary: |
@@ -85,49 +85,54 @@ education:
       - Social Welfare
       - Public Economics
       - Social Psychology
-      - Statistics
-      - Theory and Method of Social Survey
+      - Statistics, Theory and Method of Social Survey
 
 work:
   - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
+    company_name: Zhejiang Lab
+    company_url: 'https://www.zhejianglab.org/lab/home'
     company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
+    date_start: 2022-08-01
+    date_end: 2023-02-01
     summary: |2-
       Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Research Project Participation: 
+        Contributed to the “Intelligent Social Governance System Based on Social Simulation and Deduction” research project
+      - Project Management and Design:
+       1 Managed the “Comprehensive Security” section planning and design within the “AI Sociologist” project
+       2 Developed project implementation plans with meticulous attention to detail
+       3 Implemented project engineering code with precision and efficiency
+       4 Conducted rigorous simulation studies, concentrating on sudden public safety incidents like high-rise fires, urban flooding, and vehicular attacks
+
+
+  # - position: Backend Software Engineer
+  #   company_name: X
+  #   company_url: ''
+  #   company_logo: ''
+  #   date_start: 2016-01-01
+  #   date_end: 2020-12-31
+  #   summary: |
+  #     Responsibilities include:
+  #     - Migrated infrastructure to a new data center
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
 
 
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: Programming Language Skills
     items:
       - name: Python
         description: ''
         percent: 80
         icon: code-bracket
-      - name: Data Science
+      - name: NetLogo
         description: ''
         percent: 100
         icon: chart-bar
-      - name: SQL
+      - name: R
         description: ''
         percent: 40
         icon: circle-stack
@@ -190,4 +195,8 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am currently a Research Assistant at the Computational Social Science Research Center, Zhejiang University. My research interests focus on computational social science, particularly in areas such as social simulation, agent-based modeling, and natural language processing applications in social science.
+
+I received my Master's degree in Computational Sociology from Central South University, where I developed strong skills in social research methods and advanced statistical analysis. During my undergraduate studies at Shan Xi University, I majored in Labor and Social Security, which provided me with a solid foundation in social policy and welfare studies.
+
+My current work involves developing and applying computational methods to understand complex social phenomena, combining traditional sociological approaches with modern computational techniques.
