@@ -54,7 +54,7 @@ interests:
   - Sociology
   - Natural Language Processing
 education:
-  - area: RA Computational Social Science
+  - area: RA Generative Agents
     institution: Zhejiang University
     date_start: 2024-01-01
     date_end: ''
@@ -88,7 +88,7 @@ education:
       - Statistics, Theory and Method of Social Survey
 
 work:
-  - position: Director of Cloud Infrastructure
+  - position: Sub-Project Leader
     company_name: Zhejiang Lab
     company_url: 'https://www.zhejianglab.org/lab/home'
     company_logo: ''
@@ -96,13 +96,13 @@ work:
     date_end: 2023-02-01
     summary: |2-
       Responsibilities include:
-      - Research Project Participation: 
-        Contributed to the “Intelligent Social Governance System Based on Social Simulation and Deduction” research project
-      - Project Management and Design:
-       1 Managed the “Comprehensive Security” section planning and design within the “AI Sociologist” project
-       2 Developed project implementation plans with meticulous attention to detail
-       3 Implemented project engineering code with precision and efficiency
-       4 Conducted rigorous simulation studies, concentrating on sudden public safety incidents like high-rise fires, urban flooding, and vehicular attacks
+      * Research Project Participation: 
+        - Contributed to the “Intelligent Social Governance System Based on Social Simulation and Deduction” research project
+      * Project Management and Design:
+       - 1 Managed the “Comprehensive Security” section planning and design within the “AI Sociologist” project
+       - 2 Developed project implementation plans with meticulous attention to detail
+       - 3 Implemented project engineering code with precision and efficiency
+       - 4 Conducted rigorous simulation studies, concentrating on sudden public safety incidents like high-rise fires, urban flooding, and vehicular attacks
 
 
   # - position: Backend Software Engineer
