@@ -136,12 +136,18 @@ skills:
         description: ''
         percent: 100
         icon: devicon/r
+
+  - name: Technical Skills
+    items:
+      - name: Python
+        description: ''
+        percent: 100
+        icon: devicon/python
       - name: SPSS
         description: ''
         percent: 100
         icon: devicon/spss
-    design:
-      columns: 2
+    
 
 
 
