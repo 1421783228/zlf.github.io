@@ -127,11 +127,12 @@ skills:
       - name: Python
         description: ''
         percent: 80
-        icon: code-bracket
+        # icon: code-bracket
+        icon: devicon-threedsmax-plain colored
       - name: NetLogo
         description: ''
         percent: 100
-        icon: chart-bar
+        # icon: chart-bar
       - name: R
         description: ''
         percent: 40
