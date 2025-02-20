@@ -59,7 +59,6 @@ education:
     date_start: 2024-01-01
     date_end: ''
     summary: Research Assistant
-
   - area: MA Computational Sociology
     institution: Central South University
     date_start: 2021-09-01
@@ -72,7 +71,6 @@ education:
       - Social Survey and Statistics
       - Advanced Statistical Methods and Applications
       - Psychosocial and Behavioural Studies
-
   - area: BM Labor and Social Security
     institution: Shan Xi University
     date_start: 2017-09-01
@@ -103,8 +101,6 @@ work:
        - 2 Developed project implementation plans with meticulous attention to detail
        - 3 Implemented project engineering code with precision and efficiency
        - 4 Conducted rigorous simulation studies, concentrating on sudden public safety incidents like high-rise fires, urban flooding, and vehicular attacks
-
-
   # - position: Backend Software Engineer
   #   company_name: X
   #   company_url: ''
@@ -122,7 +118,7 @@ work:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Programming Language Skills
+  - name: Programming Skills
     items:
       - name: Python
         description: ''
@@ -153,13 +149,18 @@ skills:
         percent: 80
         icon: camera
 
+# languages:
+  # - name: Chinese
+  #   percent: 100
+  # - name: English
+  #   percent: 6.5
+  # - name: Portuguese
+  #   percent: 25
 languages:
-  - name: English
-    percent: 100
   - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+    description: 'Native'
+  - name: English
+    description: 'IELTS 6.5'
 
 # Awards.
 #   Add/remove as many awards below as you like.
