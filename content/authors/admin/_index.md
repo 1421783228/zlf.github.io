@@ -126,7 +126,7 @@ skills:
     items:
       - name: Python
         description: ''
-        percent: 80
+        percent: 100
         icon: devicon/python
       - name: NetLogo
         description: ''
@@ -134,11 +134,11 @@ skills:
         icon: devicon/netlogo
       - name: R
         description: ''
-        percent: 40
+        percent: 100
         icon: devicon/r
       - name: SPSS
         description: ''
-        percent: 40
+        percent: 100
         icon: devicon/spss
     design:
       columns: 2
