@@ -97,10 +97,10 @@ work:
       * Research Project Participation: 
         - Contributed to the “Intelligent Social Governance System Based on Social Simulation and Deduction” research project
       * Project Management and Design:
-       - 1 Managed the “Comprehensive Security” section planning and design within the “AI Sociologist” project
-       - 2 Developed project implementation plans with meticulous attention to detail
-       - 3 Implemented project engineering code with precision and efficiency
-       - 4 Conducted rigorous simulation studies, concentrating on sudden public safety incidents like high-rise fires, urban flooding, and vehicular attacks
+        - 1 Managed the “Comprehensive Security” section planning and design within the “AI Sociologist” project
+        - 2 Developed project implementation plans with meticulous attention to detail
+        - 3 Implemented project engineering code with precision and efficiency
+        - 4 Conducted rigorous simulation studies, concentrating on sudden public safety incidents like high-rise fires, urban flooding, and vehicular attacks
   # - position: Backend Software Engineer
   #   company_name: X
   #   company_url: ''
@@ -118,12 +118,12 @@ work:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Programming Skills
+  - name: Technical Skills
     items:
       - name: Python
         description: ''
         percent: 80
-        icon: code-bracket
+        icon: devicon/devicon-threedsmax-plain colored
       - name: NetLogo
         description: ''
         percent: 100
@@ -132,6 +132,14 @@ skills:
         description: ''
         percent: 40
         icon: circle-stack
+      - name: SPSS
+        description: ''
+        percent: 40
+        icon: circle-stack
+
+
+
+
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
@@ -149,18 +157,14 @@ skills:
         percent: 80
         icon: camera
 
-# languages:
-  # - name: Chinese
-  #   percent: 100
-  # - name: English
-  #   percent: 6.5
-  # - name: Portuguese
-  #   percent: 25
 languages:
   - name: Chinese
-    description: 'Native'
+    percent: 100
   - name: English
-    description: 'IELTS 6.5'
+    percent: 70
+  # - name: Portuguese
+  #   percent: 25
+
 
 # Awards.
 #   Add/remove as many awards below as you like.
