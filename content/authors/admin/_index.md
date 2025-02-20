@@ -101,6 +101,10 @@ work:
         - 2 Developed project implementation plans with meticulous attention to detail
         - 3 Implemented project engineering code with precision and efficiency
         - 4 Conducted rigorous simulation studies, concentrating on sudden public safety incidents like high-rise fires, urban flooding, and vehicular attacks
+        - 1 Managed the “Comprehensive Security” section planning and design within the “AI Sociologist” project
+        - 2 Developed project implementation plans with meticulous attention to detail
+        - 3 Implemented project engineering code with precision and efficiency
+        - 4 Conducted rigorous simulation studies, concentrating on sudden public safety incidents like high-rise fires, urban flooding, and vehicular attacks
   # - position: Backend Software Engineer
   #   company_name: X
   #   company_url: ''
@@ -123,7 +127,7 @@ skills:
       - name: Python
         description: ''
         percent: 80
-        icon: devicon/devicon-threedsmax-plain colored
+        icon: code-bracket
       - name: NetLogo
         description: ''
         percent: 100
