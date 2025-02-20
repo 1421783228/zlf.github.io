@@ -128,7 +128,7 @@ skills:
         description: ''
         percent: 80
         # icon: code-bracket
-        icon: devicon-threedsmax-plain colored
+        icon: threedsmax/threedsmax-original.svg
       - name: NetLogo
         description: ''
         percent: 100
