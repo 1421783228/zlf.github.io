@@ -131,7 +131,7 @@ skills:
       - name: NetLogo
         description: ''
         percent: 100
-        icon: devicon/netlogo
+        icon: custom/netlogo
       - name: R
         description: ''
         percent: 40
@@ -140,7 +140,6 @@ skills:
         description: ''
         percent: 40
         icon: devicon/spss
-
 
 
 
