@@ -56,14 +56,14 @@ interests:
 education:
   - area: RA Social Simulation
     institution: Computational Social Science Research Center, Zhejiang University
-    date_start: 2024-12-01
-    date_end: now
-    
+    date_start: 2024-01-01
+    date_end: ''
+    summary: Research Assistant
 
   - area: MA Computational Sociology
     institution: Faculty of Public Administration, Central South University
-    date_start: 2021-09
-    date_end: 2024-07
+    date_start: 2021-09-01
+    date_end: 2024-07-01
     summary: |
       GPA: 3.68/4.0
 
@@ -75,8 +75,8 @@ education:
 
   - area: BM Labor and Social Security
     institution: Faculty of Political Science and Public Administration, Shan Xi University
-    date_start: 2017-09
-    date_end: 2021-07
+    date_start: 2017-09-01
+    date_end: 2021-07-01
     summary: |
       GPA: 3.57/4.0
       
@@ -87,8 +87,6 @@ education:
       - Social Psychology
       - Statistics
       - Theory and Method of Social Survey
-      
-
 
 work:
   - position: Director of Cloud Infrastructure
