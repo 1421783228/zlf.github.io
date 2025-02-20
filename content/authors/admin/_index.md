@@ -137,7 +137,7 @@ skills:
         percent: 100
         icon: devicon/r
 
-  - name: Technical Skills
+  - name: Other Skills
     items:
       - name: Python
         description: ''
@@ -213,6 +213,3 @@ awards:
 
 I am currently a Research Assistant at the Computational Social Science Research Center, Zhejiang University. My research interests focus on computational social science, particularly in areas such as social simulation, agent-based modeling, and natural language processing applications in social science.
 
-I received my Master's degree in Computational Sociology from Central South University, where I developed strong skills in social research methods and advanced statistical analysis. During my undergraduate studies at Shan Xi University, I majored in Labor and Social Security, which provided me with a solid foundation in social policy and welfare studies.
-
-My current work involves developing and applying computational methods to understand complex social phenomena, combining traditional sociological approaches with modern computational techniques.
