@@ -53,40 +53,41 @@ interests:
   - Computational Social Science
   - Sociology
   - Natural Language Processing
-
-
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: RA Social Simulation
+    institution: Computational Social Science Research Center, Zhejiang University
+    date_start: 2024-12-01
+    date_end: now
+    
+
+  - area: MA Computational Sociology
+    institution: Faculty of Public Administration, Central South University
+    date_start: 2021-09
+    date_end: 2024-07
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
+      GPA: 3.68/4.0
 
       Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      - Qualitative Research Method
+      - Social Survey and Statistics
+      - Advanced Statistical Methods and Applications
+      - Psychosocial and Behavioural Studies
+
+  - area: BM Labor and Social Security
+    institution: Faculty of Political Science and Public Administration, Shan Xi University
+    date_start: 2017-09
+    date_end: 2021-07
     summary: |
-      GPA: 3.4/4.0
+      GPA: 3.57/4.0
       
       Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Social Policy
+      - Social Welfare
+      - Public Economics
+      - Social Psychology
+      - Statistics
+      - Theory and Method of Social Survey
+      
 
 
 work:
