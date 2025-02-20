@@ -11,7 +11,7 @@ last_name: Zheng
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 😎
 
 # Is this the primary user of the site?
 superuser: true
@@ -45,12 +45,14 @@ profiles:
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=GDaqEpYAAAAJ&hl=en
   - icon: academicons/orcid
-    url: https://orcid.org/my-orcid?orcid=0000-0001-6633-4570
+    url: https://orcid.org/0000-0001-6633-4570
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Artificial Intelligence 
+  - Generative Agent-based Modeling
+  - Computational Social Science
+  - Sociology
+  - Natural Language Processing
 
 education:
   - area: PhD Artificial Intelligence
