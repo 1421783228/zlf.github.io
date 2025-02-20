@@ -127,20 +127,19 @@ skills:
       - name: Python
         description: ''
         percent: 80
-        # icon: code-bracket
-        icon: threedsmax/threedsmax-original.svg
+        icon: devicon/python
       - name: NetLogo
         description: ''
         percent: 100
-        # icon: chart-bar
+        icon: devicon/netlogo
       - name: R
         description: ''
         percent: 40
-        icon: circle-stack
+        icon: devicon/r
       - name: SPSS
         description: ''
         percent: 40
-        icon: circle-stack
+        icon: devicon/spss
 
 
 
