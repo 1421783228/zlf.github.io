@@ -120,6 +120,7 @@ work:
 # Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Technical Skills
+    columns: 2
     items:
       - name: Python
         description: ''
@@ -133,8 +134,6 @@ skills:
         description: ''
         percent: 100
         icon: devicon/r
-  - name: 
-    items:
       - name: Stata
         description: ''
         percent: 100
@@ -151,6 +150,8 @@ skills:
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
+    columns: 3
+    align: center
     items:
       - name: Basketball
         description: ''
