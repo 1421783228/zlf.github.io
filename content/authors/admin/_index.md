@@ -120,53 +120,35 @@ work:
 
 
 # Skills
-# Add your own SVG icons to `assets/media/icons/`
-skills:
-  - name: Technical Skills
-    items:
-      - name: Python
-        description: ''
-        percent: 100
-        icon: devicon/python
-      - name: NetLogo
-        description: ''
-        percent: 100
-        icon: devicon/netlogo
-      - name: R
-        description: ''
-        percent: 100
-        icon: devicon/r
-
-  - name: Other Skills
-    items:
-      - name: Python
-        description: ''
-        percent: 100
-        icon: devicon/python
-      - name: SPSS
-        description: ''
-        percent: 100
-        icon: devicon/spss
-    
-
-
-
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera
+blocks:
+  - block: features
+    content:
+      title: Technical Skills
+      items:
+        - name: Python
+          description: ''
+          icon: devicon/python
+        - name: NetLogo
+          description: ''
+          icon: devicon/netlogo
+        - name: R
+          description: ''
+          icon: devicon/r
+        - name: SPSS
+          description: ''
+          icon: devicon/spss
+        - name: Stata
+          description: ''
+          icon: devicon/stata
+        - name: Linux
+          description: ''
+          icon: devicon/linux
+    design:
+      columns: "2"
+      background:
+        text_color_light: false
+      spacing:
+        padding: ["20px", "0", "20px", "0"]
 
 languages:
   - name: Chinese
@@ -212,4 +194,3 @@ awards:
 ## About Me
 
 I am currently a Research Assistant at the Computational Social Science Research Center, Zhejiang University. My research interests focus on computational social science, particularly in areas such as social simulation, agent-based modeling, and natural language processing applications in social science.
-
