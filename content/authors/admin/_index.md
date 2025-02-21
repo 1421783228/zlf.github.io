@@ -124,22 +124,21 @@ skills:
       - name: Python
         description: ''
         percent: 100
-        icon: hero/chart-pie
+        icon: devicon/python
       - name: NetLogo
         description: ''
         percent: 100
-        icon: devicon/netlogo
+        icon: hero/chart-pie
       - name: R
         description: ''
         percent: 100
         icon: devicon/r
-
   - name: 
     items:
       - name: Stata
         description: ''
         percent: 100
-        icon: hero/chart-line
+        icon: hero/chart-bar
       - name: SPSS
         description: ''
         percent: 100
