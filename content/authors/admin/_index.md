@@ -124,7 +124,7 @@ skills:
       - name: Python
         description: ''
         percent: 100
-        icon: devicon/python
+        icon: hero/chart-pie
       - name: NetLogo
         description: ''
         percent: 100
@@ -139,7 +139,7 @@ skills:
       - name: Stata
         description: ''
         percent: 100
-        icon: devicon/stata
+        icon: hero/chart-line
       - name: SPSS
         description: ''
         percent: 100
@@ -148,12 +148,23 @@ skills:
         description: ''
         percent: 100
         icon: devicon/linux
-    design:
-      columns: "2"
-      background:
-        text_color_light: false
-      spacing:
-        padding: ["20px", "0", "20px", "0"]
+
+  - name: Hobbies
+    color: '#eeac02'
+    color_border: '#f0bf23'
+    items:
+      - name: Basketball
+        description: ''
+        percent: 100
+        icon: "custom/basketball-solid"
+      - name: Fitness
+        description: ''
+        percent: 100
+        icon: "custom/dumbbell-solid"
+      - name: Dog
+        description: ''
+        percent: 100
+        icon: "custom/dog-solid"
 
 languages:
   - name: Chinese

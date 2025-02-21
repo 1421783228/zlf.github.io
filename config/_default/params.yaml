@@ -16,6 +16,8 @@ appearance:
       ai: true  # Enable academic icons
       custom: true  # Enable custom icons
       devicon: true  # Enable devicon icons
+      fas: true  # Enable Font Awesome solid icons
+      heroicons: true  # Enable Heroicons (Tailwind's default icons)
 
 # SEO
 marketing:
