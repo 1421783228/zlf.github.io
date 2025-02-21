@@ -117,55 +117,51 @@ work:
 
 
 # Skills
-sections:
-  - block: features
-    content:
-      title: Technical Skills
-      items:
-        - name: Python
-          description: ''
-          icon: devicon/python
-        - name: NetLogo
-          description: ''
-          icon: hero/chart-pie
-        - name: R
-          description: ''
-          icon: devicon/r
-        - name: Stata
-          description: ''
-          icon: hero/chart-bar
-        - name: SPSS
-          description: ''
-          icon: devicon/spss
-        - name: Linux
-          description: ''
-          icon: devicon/linux
-    design:
-      columns: '2'
-      background:
-        color: 'white'
-      spacing:
-        padding: ["20px", "0", "20px", "0"]
+# Add your own SVG icons to `assets/media/icons/`
+skills:
+  - name: Technical Skills
+    items:
+      - name: Python
+        description: ''
+        percent: 100
+        icon: devicon/python
+      - name: NetLogo
+        description: ''
+        percent: 100
+        icon: hero/chart-pie
+      - name: R
+        description: ''
+        percent: 100
+        icon: devicon/r
+      - name: Stata
+        description: ''
+        percent: 100
+        icon: hero/chart-bar
+      - name: SPSS
+        description: ''
+        percent: 100
+        icon: devicon/spss
+      - name: Linux
+        description: ''
+        percent: 100
+        icon: devicon/linux
 
-  - block: features
-    content:
-      title: Hobbies
-      items:
-        - name: Basketball
-          description: ''
-          icon: "custom/basketball-solid"
-        - name: Fitness
-          description: ''
-          icon: "custom/dumbbell-solid"
-        - name: Dog
-          description: ''
-          icon: "custom/dog-solid"
-    design:
-      columns: '3'
-      background:
-        color: '#eeac02'
-      spacing:
-        padding: ["20px", "0", "20px", "0"]
+  - name: Hobbies
+    color: '#eeac02'
+    color_border: '#f0bf23'
+    items:
+      - name: Basketball
+        description: ''
+        percent: 100
+        icon: "custom/basketball-solid"
+      - name: Fitness
+        description: ''
+        percent: 100
+        icon: "custom/dumbbell-solid"
+      - name: Dog
+        description: ''
+        percent: 100
+        icon: "custom/dog-solid"
 
 languages:
   - name: Chinese
