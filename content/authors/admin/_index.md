@@ -120,66 +120,52 @@ work:
 sections:
   - block: features
     content:
-      title: Skills & Hobbies
+      title: Technical Skills
       items:
-        - name: Technical Skills
-          description: |
-            * Python
-            * NetLogo
-            * R
-            * Stata
-            * SPSS
-            * Linux
+        - name: Python
+          description: ''
           icon: devicon/python
-        - name: Hobbies
-          description: |
-            * Basketball
-            * Fitness
-            * Dog
-          icon: "custom/basketball-solid"
+        - name: NetLogo
+          description: ''
+          icon: hero/chart-pie
+        - name: R
+          description: ''
+          icon: devicon/r
+        - name: Stata
+          description: ''
+          icon: hero/chart-bar
+        - name: SPSS
+          description: ''
+          icon: devicon/spss
+        - name: Linux
+          description: ''
+          icon: devicon/linux
     design:
+      columns: '2'
       background:
         color: 'white'
       spacing:
-        padding: ["20px", "0", "20px", "0"]# Skills
-        sections:
-          - block: features
-            content:
-              title: Skills & Hobbies
-              items:
-                - name: Python
-                  description: ''
-                  icon: devicon/python
-                - name: NetLogo
-                  description: ''
-                  icon: hero/chart-pie
-                - name: R
-                  description: ''
-                  icon: devicon/r
-                - name: Stata
-                  description: ''
-                  icon: hero/chart-bar
-                - name: SPSS
-                  description: ''
-                  icon: devicon/spss
-                - name: Linux
-                  description: ''
-                  icon: devicon/linux
-                - name: Basketball
-                  description: ''
-                  icon: "custom/basketball-solid"
-                - name: Fitness
-                  description: ''
-                  icon: "custom/dumbbell-solid"
-                - name: Dog
-                  description: ''
-                  icon: "custom/dog-solid"
-            design:
-              columns: '3'
-              background:
-                color: 'white'
-              spacing:
-                padding: ["20px", "0", "20px", "0"]
+        padding: ["20px", "0", "20px", "0"]
+
+  - block: features
+    content:
+      title: Hobbies
+      items:
+        - name: Basketball
+          description: ''
+          icon: "custom/basketball-solid"
+        - name: Fitness
+          description: ''
+          icon: "custom/dumbbell-solid"
+        - name: Dog
+          description: ''
+          icon: "custom/dog-solid"
+    design:
+      columns: '3'
+      background:
+        color: '#eeac02'
+      spacing:
+        padding: ["20px", "0", "20px", "0"]
 
 languages:
   - name: Chinese
