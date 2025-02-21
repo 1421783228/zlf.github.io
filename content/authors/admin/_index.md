@@ -101,10 +101,7 @@ work:
         - 2 Developed project implementation plans with meticulous attention to detail
         - 3 Implemented project engineering code with precision and efficiency
         - 4 Conducted rigorous simulation studies, concentrating on sudden public safety incidents like high-rise fires, urban flooding, and vehicular attacks
-        - 1 Managed the “Comprehensive Security” section planning and design within the “AI Sociologist” project
-        - 2 Developed project implementation plans with meticulous attention to detail
-        - 3 Implemented project engineering code with precision and efficiency
-        - 4 Conducted rigorous simulation studies, concentrating on sudden public safety incidents like high-rise fires, urban flooding, and vehicular attacks
+
   # - position: Backend Software Engineer
   #   company_name: X
   #   company_url: ''
@@ -120,29 +117,37 @@ work:
 
 
 # Skills
-blocks:
-  - block: features
-    content:
-      title: Technical Skills
-      items:
-        - name: Python
-          description: ''
-          icon: devicon/python
-        - name: NetLogo
-          description: ''
-          icon: devicon/netlogo
-        - name: R
-          description: ''
-          icon: devicon/r
-        - name: SPSS
-          description: ''
-          icon: devicon/spss
-        - name: Stata
-          description: ''
-          icon: devicon/stata
-        - name: Linux
-          description: ''
-          icon: devicon/linux
+# Add your own SVG icons to `assets/media/icons/`
+skills:
+  - name: Technical Skills
+    items:
+      - name: Python
+        description: ''
+        percent: 100
+        icon: devicon/python
+      - name: NetLogo
+        description: ''
+        percent: 100
+        icon: devicon/netlogo
+      - name: R
+        description: ''
+        percent: 100
+        icon: devicon/r
+
+  - name: 
+    items:
+      - name: Stata
+        description: ''
+        percent: 100
+        icon: devicon/stata
+      - name: SPSS
+        description: ''
+        percent: 100
+        icon: devicon/spss
+      - name: Linux
+        description: ''
+        percent: 100
+        icon: devicon/linux
     design:
       columns: "2"
       background:
