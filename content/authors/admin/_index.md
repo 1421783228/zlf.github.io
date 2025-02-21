@@ -117,54 +117,69 @@ work:
 
 
 # Skills
-# Add your own SVG icons to `assets/media/icons/`
-skills:
-  - name: Technical Skills
-    columns: 2
-    items:
-      - name: Python
-        description: ''
-        percent: 100
-        icon: devicon/python
-      - name: NetLogo
-        description: ''
-        percent: 100
-        icon: hero/chart-pie
-      - name: R
-        description: ''
-        percent: 100
-        icon: devicon/r
-      - name: Stata
-        description: ''
-        percent: 100
-        icon: hero/chart-bar
-      - name: SPSS
-        description: ''
-        percent: 100
-        icon: devicon/spss
-      - name: Linux
-        description: ''
-        percent: 100
-        icon: devicon/linux
-
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    columns: 3
-    align: center
-    items:
-      - name: Basketball
-        description: ''
-        percent: 100
-        icon: "custom/basketball-solid"
-      - name: Fitness
-        description: ''
-        percent: 100
-        icon: "custom/dumbbell-solid"
-      - name: Dog
-        description: ''
-        percent: 100
-        icon: "custom/dog-solid"
+sections:
+  - block: features
+    content:
+      title: Skills & Hobbies
+      items:
+        - name: Technical Skills
+          description: |
+            * Python
+            * NetLogo
+            * R
+            * Stata
+            * SPSS
+            * Linux
+          icon: devicon/python
+        - name: Hobbies
+          description: |
+            * Basketball
+            * Fitness
+            * Dog
+          icon: "custom/basketball-solid"
+    design:
+      background:
+        color: 'white'
+      spacing:
+        padding: ["20px", "0", "20px", "0"]# Skills
+        sections:
+          - block: features
+            content:
+              title: Skills & Hobbies
+              items:
+                - name: Python
+                  description: ''
+                  icon: devicon/python
+                - name: NetLogo
+                  description: ''
+                  icon: hero/chart-pie
+                - name: R
+                  description: ''
+                  icon: devicon/r
+                - name: Stata
+                  description: ''
+                  icon: hero/chart-bar
+                - name: SPSS
+                  description: ''
+                  icon: devicon/spss
+                - name: Linux
+                  description: ''
+                  icon: devicon/linux
+                - name: Basketball
+                  description: ''
+                  icon: "custom/basketball-solid"
+                - name: Fitness
+                  description: ''
+                  icon: "custom/dumbbell-solid"
+                - name: Dog
+                  description: ''
+                  icon: "custom/dog-solid"
+            design:
+              columns: '3'
+              background:
+                color: 'white'
+              spacing:
+                padding: ["20px", "0", "20px", "0"]
 
 languages:
   - name: Chinese
