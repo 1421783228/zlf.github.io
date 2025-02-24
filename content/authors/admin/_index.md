@@ -178,12 +178,14 @@ languages:
   
 awards:
   - title: Outstanding Student
-    date: '2023-07-01'
+    date_start: '2023-07-01'
+    date_end: ''
     awarder: School of Public Administration, Central South University
     summary: Recognized for academic excellence and leadership
 
   - title: Academic Scholarships
-    date: '2021-2023'
+    date_start: '2021-09-01'
+    date_end: '2023-07-01'
     awarder: Central South University
     summary: |
       Multiple honors including:
@@ -191,7 +193,8 @@ awards:
       - Second-Class Academic Scholarship
 
   - title: Provincial Outstanding Graduate
-    date: '2021-07-01'
+    date_start: '2021-07-01'
+    date_end: ''
     awarder: Shanxi University
     summary: |
       Received multiple honors:
@@ -199,7 +202,8 @@ awards:
       - Outstanding Graduation Thesis
 
   - title: Multiple Excellence Awards
-    date: '2018-2020'
+    date_start: '2018-09-01'
+    date_end: '2020-07-01'
     awarder: Shanxi University
     summary: |
       Multiple honors including:
