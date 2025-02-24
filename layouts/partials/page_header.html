@@ -1,0 +1,46 @@
+{{/* Page header */}}
+
+<div class="article-header">
+  {{/* Featured image */}}
+  {{ $featured := (.Resources.ByType "image").GetMatch "*featured*" }}
+  {{ $featured_image := ($featured.Fill "1200x400") }}
+  {{ if $featured }}
+  <div class="article-header-image">
+    <img src="{{ $featured_image.RelPermalink }}" alt="{{ with $.Params.image.alt_text }}{{.}}{{ end }}" width="{{ $featured_image.Width }}" height="{{ $featured_image.Height }}">
+  </div>
+  {{ end }}
+
+  <h1 class="pub-title">{{ .Title }}</h1>
+
+  {{ with .Params.subtitle }}
+  <p class="pub-subtitle">{{ . | markdownify | emojify }}</p>
+  {{ end }}
+
+  {{/* Author */}}
+  <div class="pub-authors">
+    {{ with .Params.authors }}
+    {{ range $index, $authors := . }}
+      {{- if gt $index 0 }}, {{ end -}}
+      {{- $author := . -}}
+      {{- if eq $author "admin" -}}
+        {{- $author = site.Params.author -}}
+      {{- end -}}
+      <span>{{ $author }}</span>
+    {{ end }}
+    {{ end }}
+  </div>
+
+  {{/* Publication date */}}
+  {{ if .Params.date }}
+  <div class="pub-date">
+    {{ .Date.Format "January 2, 2006" }}
+  </div>
+  {{ end }}
+
+  {{/* Publication venue */}}
+  {{ with .Params.publication }}
+  <div class="pub-venue">
+    {{ . | markdownify }}
+  </div>
+  {{ end }}
+</div>
