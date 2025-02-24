@@ -1,27 +1,104 @@
-{{ define "main" }}
+{{- define "main" -}}
 
-<div class="pub" style="max-width: 100%; padding: 0;">
+{{/* Check if this page is a publication */}}
+{{ if eq .Type "publication" }}
+<div class="pub">
 
-  {{ partial "page_header.html" . }}
+  {{ partial "page_header" . }}
 
-  <div class="article-container" style="max-width: 100%; padding: 0 20px;">
+  <div class="article-container">
 
-    {{ with .Params.abstract }}
+    {{/* Publication metadata */}}
+    {{ if .Params.publication_types }}
     <div class="row">
-      <div class="col-12" style="max-width: 100%; padding: 0;">
-        <div class="abstract author-abstract">
-          <h3>{{ i18n "abstract" }}</h3>
-          <p>{{ . | markdownify }}</p>
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">{{ i18n "publication_type" }}</div>
+          <div class="col-12 col-md-9">
+            {{ $pub_types := partial "functions/get_pub_types" $ }}
+            {{ range $index, $pubtype := .Params.publication_types }}
+              {{- $pubtype_param := (string $pubtype) -}}
+              {{ if gt $index 0 }}
+              <div class="pub-row-heading">{{ i18n "and" }}</div>
+              {{ end }}
+              {{- if isset $pub_types $pubtype_param -}}
+              <a href="{{ (site.GetPage "section" "publication").RelPermalink }}#{{ $pubtype | urlize }}">
+                {{ index $pub_types $pubtype_param }}
+              </a>
+              {{- else -}}
+              {{ $pubtype_param }}
+              {{- end -}}
+            {{ end }}
+          </div>
         </div>
       </div>
+      <div class="col-md-1"></div>
     </div>
     {{ end }}
 
-    <div class="article-style">
-      {{ .Content }}
+    {{/* Abstract */}}
+    {{ with .Params.abstract }}
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">{{ i18n "abstract" }}</div>
+          <div class="col-12 col-md-9" style="max-width: 100%; padding-right: 0;">{{ . | markdownify }}</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
     </div>
+    {{ end }}
+
+    {{/* Links/Buttons */}}
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">{{ i18n "links" }}</div>
+          <div class="col-12 col-md-9">
+            {{ partial "links" (dict "content" . "is_card" 0) }}
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+
+    {{/* Tags */}}
+    {{ if .Params.tags }}
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">{{ i18n "tags" }}</div>
+          <div class="col-12 col-md-9">
+            {{ range $index, $tag := .Params.tags }}
+              {{- if gt $index 0 }}, {{ end -}}
+              <a href="{{ (site.GetPage "taxonomyTerm" "tags" ($tag | urlize)).RelPermalink }}">{{ $tag }}</a>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    {{ end }}
+
+    <div class="space-below"></div>
+
+    {{/* Featured image */}}
+    {{ $image := .Resources.GetMatch "featured" }}
+    {{ with $image }}
+    <div class="article-header">
+      <img src="{{ .RelPermalink }}" class="article-banner" alt="">
+    </div>
+    {{ end }}
+
+    {{/* Content */}}
+    <div class="article-style">{{ .Content }}</div>
 
   </div>
 </div>
+{{ end }}
 
-{{- end }}
+{{- end -}}
