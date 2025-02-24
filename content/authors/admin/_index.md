@@ -187,6 +187,7 @@ awards:
   - title: Academic Scholarships (2021-2023)
     awarder: School of Public Administration, Central South University
     date: '2022-10-01'
+    icon: solid/trophy
     summary: |
       - First-Class Academic Scholarship
       - Second-Class Academic Scholarship
