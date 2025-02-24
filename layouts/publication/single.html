@@ -23,7 +23,7 @@
               <div class="pub-row-heading">{{ i18n "and" }}</div>
               {{ end }}
               {{- if isset $pub_types $pubtype_param -}}
-              <a href="{{ (site.GetPage "section" "publication").RelPermalink }}#{{ $pubtype | urlize }}">
+              <a href="{{ (site.GetPage "/publication").RelPermalink }}#{{ $pubtype | urlize }}">
                 {{ index $pub_types $pubtype_param }}
               </a>
               {{- else -}}
@@ -75,7 +75,7 @@
           <div class="col-12 col-md-9">
             {{ range $index, $tag := .Params.tags }}
               {{- if gt $index 0 }}, {{ end -}}
-              <a href="{{ (site.GetPage "taxonomyTerm" "tags" ($tag | urlize)).RelPermalink }}">{{ $tag }}</a>
+              <a href="{{ printf "/tags/%s/" ($tag | urlize) }}">{{ $tag }}</a>
             {{ end }}
           </div>
         </div>
