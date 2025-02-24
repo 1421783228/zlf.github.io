@@ -180,14 +180,12 @@ awards:
   - title: Outstanding Student (2023)
     date: '2023-11-01'
     awarder: Central South University
-    icon: coursera
     summary: |
       - Outstanding Student of the Year
    
   - title: Academic Scholarships (2021-2023)
     awarder: School of Public Administration, Central South University
     date: '2022-10-01'
-    icon: solid/trophy
     summary: |
       - First-Class Academic Scholarship
       - Second-Class Academic Scholarship
