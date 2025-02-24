@@ -178,6 +178,7 @@ languages:
   
 awards:
   - title: Outstanding Student (2023)
+    date: '2023-07-01'
     awarder: School of Public Administration, Central South University
     summary: Recognized for academic excellence and leadership
 
