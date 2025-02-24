@@ -180,7 +180,7 @@ awards:
   - title: Outstanding Student (2023)
     date: '2023-11-01'
     awarder: Central South University
-    icon: academicons/award
+    icon: coursera
     summary: |
       - Outstanding Student of the Year
    
