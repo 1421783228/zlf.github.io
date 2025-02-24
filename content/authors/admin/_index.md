@@ -65,6 +65,7 @@ education:
     date_end: 2024-07-01
     summary: |
       GPA: 3.68/4.0
+
       Courses included:
       - Qualitative Research Methods
       - Social Survey and Statistics
@@ -76,6 +77,7 @@ education:
     date_end: 2021-07-01
     summary: |
       GPA: 3.57/4.0
+
       Courses included:
       - Social Policy
       - Social Welfare
@@ -175,36 +177,35 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 
+  
 awards:
-  - title: Outstanding Student
-    date: '2023-07-01'
-    awarder: School of Public Administration, Central South University
-    summary: Recognized for academic excellence and leadership
-
-  - title: Academic Scholarships
-    date: '2023-07-01'
+  - title: Outstanding Student (2023)
+    date: '2023-11-01'
     awarder: Central South University
     summary: |
-      Multiple honors (2021-2023) including:
+      - Outstanding Student of the Year
+   
+  - title: Academic Scholarships (2021-2023)
+    awarder: School of Public Administration, Central South University
+    date: '2022-10-01'
+    summary: |
       - First-Class Academic Scholarship
       - Second-Class Academic Scholarship
 
-  - title: Provincial Outstanding Graduate
-    date: '2021-07-01'
+  - title: Outstanding Graduate of Shanxi (2021)
     awarder: Shanxi University
+    date: '2021-07-01'
     summary: |
-      Received multiple honors:
       - Provincial Outstanding Graduate
       - Outstanding Graduation Thesis
 
-  - title: Multiple Excellence Awards
-    date: '2020-07-01'
-    awarder: Shanxi University
+  - title: Multiple Excellence Awards (2018-2020)
+    date: '2019-10-01'
+    awarder: School of Politics and Public Administration, Shanxi University
     summary: |
-      Multiple honors (2018-2020) including:
-      - Excellent Academic Scholarship
+      - Excellent Academic Scholarships
       - Outstanding Student
-      - Excellent League Secretary
+      - Merit Student
 
 
   # - title: Neural Networks and Deep Learning
@@ -214,7 +215,6 @@ awards:
   #   icon: coursera
   #   summary: |
   #     I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-
   # - title: Blockchain Fundamentals
   #   url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
   #   date: '2023-07-01'
@@ -225,15 +225,14 @@ awards:
   #     - Synthesize your own blockchain solutions
   #     - Gain an in-depth understanding of the specific mechanics of Bitcoin
   #     - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-
-#   - title: 'Object-Oriented Programming in R'
-#     url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-#     certificate_url: https://www.datacamp.com
-#     date: '2023-01-21'
-#     awarder: datacamp
-#     icon: datacamp
-#     summary: |
-#       Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+  #  - title: 'Object-Oriented Programming in R'
+  #    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
+  #    certificate_url: https://www.datacamp.com
+  #    date: '2023-01-21'
+  #    awarder: datacamp
+  #    icon: datacamp
+  #    summary: |
+  #      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 
 ---
 
