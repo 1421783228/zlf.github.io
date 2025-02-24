@@ -51,7 +51,11 @@ interests:
   - Artificial Intelligence 
   - Generative Agent-based Modeling
   - Computational Social Science
+<<<<<<< HEAD
+  - Computational Sociology
+=======
   - Sociology
+>>>>>>> 1bf01fe14100f63a6fac6cfdddb057b6820256ea
   - Natural Language Processing
 education:
   - area: RA Generative Agents
@@ -65,9 +69,14 @@ education:
     date_end: 2024-07-01
     summary: |
       GPA: 3.68/4.0
+<<<<<<< HEAD
+      Courses included:
+      - Qualitative Research Methods
+=======
 
       Courses included:
       - Qualitative Research Method
+>>>>>>> 1bf01fe14100f63a6fac6cfdddb057b6820256ea
       - Social Survey and Statistics
       - Advanced Statistical Methods and Applications
       - Psychosocial and Behavioural Studies
@@ -77,7 +86,10 @@ education:
     date_end: 2021-07-01
     summary: |
       GPA: 3.57/4.0
+<<<<<<< HEAD
+=======
       
+>>>>>>> 1bf01fe14100f63a6fac6cfdddb057b6820256ea
       Courses included:
       - Social Policy
       - Social Welfare
