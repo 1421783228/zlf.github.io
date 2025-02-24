@@ -178,12 +178,13 @@ languages:
   
 awards:
   - title: Outstanding Student (2023)
-    date: '2023-07-01''2023-07-01'
+    date: '2023-11-01'
     awarder: School of Public Administration, Central South University
     summary: Recognized for academic excellence and leadership
 
   - title: Academic Scholarships (2021-2023)
     awarder: Central South University
+    date: '2023-11-01'
     summary: |
       Multiple honors including:
       - First-Class Academic Scholarship
