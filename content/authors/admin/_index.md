@@ -177,56 +177,35 @@ languages:
 
   
 awards:
-  - certificate_url: ''
-    date_end: ''
-    date_start: '2023-07-01'
-    description: Recognized for academic excellence and leadership
-    icon: hero/academic-cap
-    organization: School of Public Administration, Central South University
-    organization_url: ''
-    title: Outstanding Student
-    url: ''
+  - title: Outstanding Student
+    date: '2023-07-01'
+    awarder: School of Public Administration, Central South University
+    summary: Recognized for academic excellence and leadership
 
-  - certificate_url: ''
-    date_end: '2023-07-01'
-    date_start: '2021-09-01'
-    description: |
+  - title: Academic Scholarships
+    date: '2021-2023'
+    awarder: Central South University
+    summary: |
       Multiple honors including:
       - First-Class Academic Scholarship
       - Second-Class Academic Scholarship
-    icon: hero/academic-cap
-    organization: Central South University
-    organization_url: ''
-    title: Academic Scholarships
-    url: ''
 
-  - certificate_url: ''
-    date_end: ''
-    date_start: '2021-07-01'
-    description: |
+  - title: Provincial Outstanding Graduate
+    date: '2021-07-01'
+    awarder: Shanxi University
+    summary: |
       Received multiple honors:
       - Provincial Outstanding Graduate
       - Outstanding Graduation Thesis
-    icon: hero/academic-cap
-    organization: Shanxi University
-    organization_url: ''
-    title: Provincial Outstanding Graduate
-    url: ''
 
-  - certificate_url: ''
-    date_end: '2020-07-01'
-    date_start: '2018-09-01'
-    description: |
+  - title: Multiple Excellence Awards
+    date: '2018-2020'
+    awarder: Shanxi University
+    summary: |
       Multiple honors including:
       - Excellent Academic Scholarship
       - Outstanding Student
       - Excellent League Secretary
-    icon: hero/academic-cap
-    organization: Shanxi University
-    organization_url: ''
-    title: Multiple Excellence Awards
-    url: ''
-
 
 
   # - title: Neural Networks and Deep Learning
