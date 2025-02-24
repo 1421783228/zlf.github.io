@@ -187,7 +187,7 @@ awards:
     url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
     date: '2023-07-01'
     awarder: edX
-    icon: "custom/champion"
+    icon: custom/champion
     summary: |
       Learned:
       - Synthesize your own blockchain solutions
