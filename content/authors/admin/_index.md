@@ -202,6 +202,8 @@ awards:
 #     summary: |
 #       Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 
+---
+
 ## About Me
 
 I am currently a Research Assistant at the Computational Social Science Research Center, Zhejiang University. My research interests focus on computational social science, particularly in areas such as social simulation, agent-based modeling, and natural language processing applications in social science.
