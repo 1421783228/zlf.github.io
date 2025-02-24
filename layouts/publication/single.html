@@ -1,0 +1,27 @@
+{{ define "main" }}
+
+<div class="pub" style="max-width: 100%; padding: 0;">
+
+  {{ partial "page_header.html" . }}
+
+  <div class="article-container" style="max-width: 100%; padding: 0 20px;">
+
+    {{ with .Params.abstract }}
+    <div class="row">
+      <div class="col-12" style="max-width: 100%; padding: 0;">
+        <div class="abstract author-abstract">
+          <h3>{{ i18n "abstract" }}</h3>
+          <p>{{ . | markdownify }}</p>
+        </div>
+      </div>
+    </div>
+    {{ end }}
+
+    <div class="article-style">
+      {{ .Content }}
+    </div>
+
+  </div>
+</div>
+
+{{- end }}
