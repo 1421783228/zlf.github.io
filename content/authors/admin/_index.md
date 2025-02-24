@@ -178,34 +178,47 @@ languages:
   
 awards:
   - title: Outstanding Student
-    date: '2023-07-01'
-    awarder: School of Public Administration, Central South University
+    date_start: '2023-07-01'
+    date_end: '2023-07-01'
+    organization: School of Public Administration
+    organization_url: ''
+    location: Central South University
     summary: Recognized for academic excellence and leadership
 
   - title: Academic Scholarships
-    date: '2023-07-01'
-    awarder: Central South University
+    date_start: '2021-09-01'
+    date_end: '2023-07-01'
+    organization: School of Public Administration
+    organization_url: ''
+    location: Central South University
     summary: |
-      Multiple honors (2021-2023) including:
+      Multiple honors including:
       - First-Class Academic Scholarship
       - Second-Class Academic Scholarship
 
   - title: Provincial Outstanding Graduate
-    date: '2021-07-01'
-    awarder: Shanxi University
+    date_start: '2021-07-01'
+    date_end: '2021-07-01'
+    organization: School of Public Administration
+    organization_url: ''
+    location: Shanxi University
     summary: |
       Received multiple honors:
       - Provincial Outstanding Graduate
       - Outstanding Graduation Thesis
 
   - title: Multiple Excellence Awards
-    date: '2020-07-01'
-    awarder: Shanxi University
+    date_start: '2018-09-01'
+    date_end: '2020-07-01'
+    organization: School of Public Administration
+    organization_url: ''
+    location: Shanxi University
     summary: |
-      Multiple honors (2018-2020) including:
+      Multiple honors including:
       - Excellent Academic Scholarship
       - Outstanding Student
       - Excellent League Secretary
+
 
 
   # - title: Neural Networks and Deep Learning
