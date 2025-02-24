@@ -177,47 +177,55 @@ languages:
 
   
 awards:
-  - title: Outstanding Student
-    company: School of Public Administration, Central South University
-    company_url: ''
-    company_logo: ''
-    date_start: '2023-07-01'
+  - certificate_url: ''
     date_end: ''
+    date_start: '2023-07-01'
     description: Recognized for academic excellence and leadership
+    icon: hero/academic-cap
+    organization: School of Public Administration, Central South University
+    organization_url: ''
+    title: Outstanding Student
+    url: ''
 
-  - title: Academic Scholarships
-    company: Central South University
-    company_url: ''
-    company_logo: ''
-    date_start: '2021-09-01'
+  - certificate_url: ''
     date_end: '2023-07-01'
+    date_start: '2021-09-01'
     description: |
       Multiple honors including:
       - First-Class Academic Scholarship
       - Second-Class Academic Scholarship
+    icon: hero/academic-cap
+    organization: Central South University
+    organization_url: ''
+    title: Academic Scholarships
+    url: ''
 
-  - title: Provincial Outstanding Graduate
-    company: Shanxi University
-    company_url: ''
-    company_logo: ''
-    date_start: '2021-07-01'
+  - certificate_url: ''
     date_end: ''
+    date_start: '2021-07-01'
     description: |
       Received multiple honors:
       - Provincial Outstanding Graduate
       - Outstanding Graduation Thesis
+    icon: hero/academic-cap
+    organization: Shanxi University
+    organization_url: ''
+    title: Provincial Outstanding Graduate
+    url: ''
 
-  - title: Multiple Excellence Awards
-    company: Shanxi University
-    company_url: ''
-    company_logo: ''
-    date_start: '2018-09-01'
+  - certificate_url: ''
     date_end: '2020-07-01'
+    date_start: '2018-09-01'
     description: |
       Multiple honors including:
       - Excellent Academic Scholarship
       - Outstanding Student
       - Excellent League Secretary
+    icon: hero/academic-cap
+    organization: Shanxi University
+    organization_url: ''
+    title: Multiple Excellence Awards
+    url: ''
 
 
 
