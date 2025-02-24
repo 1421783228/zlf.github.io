@@ -1,0 +1,21 @@
+{{/* Function to return the publication type */}}
+{{- $pub_types := dict "0" (i18n "pub_uncat") -}}
+{{- $pub_types = merge $pub_types (dict "1" (i18n "pub_conf")) -}}
+{{- $pub_types = merge $pub_types (dict "2" (i18n "pub_journal")) -}}
+{{- $pub_types = merge $pub_types (dict "3" (i18n "pub_preprint")) -}}
+{{- $pub_types = merge $pub_types (dict "4" (i18n "pub_report")) -}}
+{{- $pub_types = merge $pub_types (dict "5" (i18n "pub_book")) -}}
+{{- $pub_types = merge $pub_types (dict "6" (i18n "pub_book_section")) -}}
+{{- $pub_types = merge $pub_types (dict "7" (i18n "pub_patent")) -}}
+{{- $pub_types = merge $pub_types (dict "article" "Journal article") -}}
+{{- $pub_types = merge $pub_types (dict "article-journal" "Journal article") -}}
+{{- $pub_types = merge $pub_types (dict "article-magazine" "Magazine article") -}}
+{{- $pub_types = merge $pub_types (dict "article-newspaper" "News article") -}}
+{{- $pub_types = merge $pub_types (dict "book" "Book") -}}
+{{- $pub_types = merge $pub_types (dict "chapter" "Book chapter") -}}
+{{- $pub_types = merge $pub_types (dict "manuscript" "Manuscript") -}}
+{{- $pub_types = merge $pub_types (dict "paper-conference" "Conference paper") -}}
+{{- $pub_types = merge $pub_types (dict "patent" "Patent") -}}
+{{- $pub_types = merge $pub_types (dict "report" "Report") -}}
+{{- $pub_types = merge $pub_types (dict "thesis" "Thesis") -}}
+{{- return $pub_types -}}
