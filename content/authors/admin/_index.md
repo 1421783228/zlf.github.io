@@ -180,6 +180,7 @@ awards:
   - title: Outstanding Student (2023)
     date: '2023-11-01'
     awarder: Central South University
+    icon: "custom/dog-solid"
     summary: |
       - Outstanding Student of the Year
    
