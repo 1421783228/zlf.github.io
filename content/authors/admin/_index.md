@@ -95,10 +95,10 @@ work:
       * Research Project Participation: 
         - Contributed to the “Intelligent Social Governance System Based on Social Simulation and Deduction” research project
       * Project Management and Design:
-        - 1 Managed the “Comprehensive Security” section planning and design within the “AI Sociologist” project
-        - 2 Developed project implementation plans with meticulous attention to detail
-        - 3 Implemented project engineering code with precision and efficiency
-        - 4 Conducted rigorous simulation studies, concentrating on sudden public safety incidents like high-rise fires, urban flooding, and vehicular attacks
+        - Managed the “Comprehensive Security” section planning and design within the “AI Sociologist” project
+        - Developed project implementation plans with meticulous attention to detail
+        - Implemented project engineering code with precision and efficiency
+        - Conducted rigorous simulation studies, concentrating on sudden public safety incidents like high-rise fires, urban flooding, and vehicular attacks
 
   # - position: Backend Software Engineer
   #   company_name: X
