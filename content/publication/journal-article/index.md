@@ -1,5 +1,5 @@
 ---
-title: "Agent-based Modelling of High-Rise Building Fires Reveals Self-Rescue Behaviours and Better Fire Protection Designs."
+title: "Professional Rescue Strategies in High-Rise Building Fires: An Agent-based Modeling Analysis"
 authors:
 - admin
 date: "2023-11-02T00:00:00Z"
@@ -18,21 +18,22 @@ publication: ""
 publication_short: ""
 
 abstract: |
-  The paper focuses on agent-based modeling (ABM) of high-rise building fires, specifically analyzing the self-rescue behaviors of individuals during such disasters. The research examines a case study based on the Grenfell Tower fire in 2017, simulating various fire dynamics and crowd evacuations to understand the role of self-rescue strategies in reducing fatalities and injuries. The model integrates multiple factors, such as the spread of fire, the design of the building, evacuation strategies, and the use of survival skills.
+  This paper investigates professional rescue strategies for high-rise building fires through agent-based modeling (ABM), using the Grenfell Tower fire as a case study. The research explores how different rescue strategies, such as the "stay-put" tactic and firefighter distribution, impact casualties and the number of rescued individuals during such fires. The study constructs a 3D ABM simulation, modeling both internal evacuation behaviors and external rescue operations to simulate realistic scenarios.
 
 
   Key findings include:
 
-  a. Self-Rescue Skills: Individuals' self-rescue skills significantly reduce deaths and injuries. Evacuation behavior, including how quickly individuals can respond to fire information, plays a crucial role.
 
-  b. Central Alarm System: A central alarm system enhances fire awareness, leading to reduced deaths and injuries. However, its impact diminishes as the number of residents increases.
+  Stay-put Tactic: The stay-put strategy, where residents remain in place during a fire, leads to higher casualties. This finding supports previous research questioning the efficacy of this approach in modern high-rise buildings.
 
-  c. Social Force Model: The social force model, which simulates crowd dynamics in evacuation scenarios, reduces casualties significantly compared to random evacuation strategies. This model helps mitigate crowd pushing and shoving, which is common in panic situations.
+  Rescue Strategy Optimization: The number of firefighters involved in life-saving tasks significantly affects the outcomes. Increasing the proportion of firefighters assigned to rescue operations leads to a reduction in fatalities and injuries.
 
-  d. Fire Protection Design: Proper building design, including fireproof materials and efficient evacuation routes, is essential for preventing large-scale casualties in high-rise fires.
+  Aerial Ladder Impact: The height and arrival time of aerial ladders influence rescue effectiveness. Aerial ladders reaching higher floors and arriving sooner increase the number of lives saved, though premature deployment can disrupt residents' self-evacuation efforts.
+
+  Firefighter Coordination: A strategy prioritizing life-saving tasks over fire suppression proves more effective in saving lives, highlighting the need for optimized coordination among rescue teams.
 
 
-  The paper suggests that training residents in self-rescue skills and implementing systems like central alarms and fireproof materials can significantly improve evacuation outcomes during high-rise building fires.
+  The paper emphasizes the importance of adjusting professional rescue strategies based on fire dynamics to enhance evacuation outcomes and reduce casualties.
 
 tags:
   - Agent-based Modeling
