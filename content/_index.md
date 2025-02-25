@@ -53,55 +53,43 @@ sections:
       view: article-grid
       columns: '2'
 
-  - block: experience
+  - block: resume-experience
     id: experience
     content:
-      title: Experience
-      # Date format for experience
-      #   Refer to https://docs.hugoblox.com/customization/#date-format
-      date_format: Jan 2006
-      # Experiences.
-      #   Add/remove as many `experience` items below as you like.
-      #   Required fields are `title`, `company`, and `date_start`.
-      #   Leave `date_end` empty if it's your current employer.
-      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-      items:
-        - title: Research Assistant
-          company: Computational Social Science Research Center
-          company_url: ''
-          company_logo: org-gc
-          location: Zhejiang University
-          date_start: '2023-09-01'
-          date_end: ''
-          description: |
-            Responsibilities include:
-
-            * Developing a universal social simulation framework based on large language models
-            * Conducting research on generative multi-agent simulation modeling
-            * Collaborating with team members on various research projects
-
-        - title: Graduate Student
-          company: Department of Sociology
-          company_url: ''
-          company_logo: org-x
-          location: Central South University
-          date_start: '2020-09-01'
-          date_end: '2023-06-30'
-          description: Conducted research in computational sociology
-
+      username: admin
     design:
-      columns: '2'
+      date_format: 'January 2006'
+      is_education_first: true
+
+  - block: resume-skills
+    content:
+      title: Skills & Hobbies
+      username: admin
+    design:
+      show_skill_percentage: false
+
+  - block: resume-awards
+    content:
+      title: Awards
+      username: admin
+
+  - block: resume-languages
+    content:
+      title: Languages
+      username: admin
 
   - block: collection
     id: projects
     content:
-      title: Projects
+      title: Selected Projects
+      text: I am excited to participate in these academic programs and build a solid foundation for myself. Unfortunately, due to team agreements and other reasons, I am unable to upload the code for these projects to the public, but I am more than happy to share it with you, so please feel free to actively contact me if you are interested.
       filters:
         folders:
           - project
     design:
-      columns: '2'
-      view: card
+      view: article-grid
+      fill_image: false
+      columns: '3'
   #   design:
   #     view: citation
   # - block: collection
