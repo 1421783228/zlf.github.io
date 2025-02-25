@@ -39,7 +39,7 @@ profiles:
   # url: https://www.instagram.com/
 
   - icon: brands/github
-    url: https://github.com/1421783228/
+    url: https://github.com/z1ivan/
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/zheng-lifan-b42369318/
   - icon: academicons/google-scholar
