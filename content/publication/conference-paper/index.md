@@ -1,8 +1,8 @@
 ---
-title: "Can Professional Rescue Strategies Save More Lives? Agent-Based 3D Modeling of High-Rise Building Fire"
+title: "Do we believe in ourselves or do we go with the flow when faced with a crisis? -- A study on evacuation strategy selection for multiple destinations."
 authors:
 - admin
-date: "2025-07-12T00:00:00Z"
+date: "2024-07-12T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -45,7 +45,7 @@ featured: true
 
 links:
 - name: PDF
-  url: '#'
+  url: 'javascript:void(0)'
 ---
 
 

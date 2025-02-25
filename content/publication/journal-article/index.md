@@ -42,7 +42,7 @@ featured: true
 
 links:
 - name: PDF
-  url: '#'
+  url: 'javascript:void(0)'
 ---
 
 
