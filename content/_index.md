@@ -41,14 +41,67 @@ sections:
     design:
       columns: '1'
 
-  # - block: collection
-  #   content:
-  #     title: Recent Publications
-  #     text: ""
-  #     filters:
-  #       folders:
-  #         - publication
-  #       exclude_featured: false
+  - block: collection
+    id: featured
+    content:
+      title: Featured Publications
+      filters:
+        folders:
+          - publication
+        featured_only: true
+    design:
+      view: article-grid
+      columns: '2'
+
+  - block: experience
+    id: experience
+    content:
+      title: Experience
+      # Date format for experience
+      #   Refer to https://docs.hugoblox.com/customization/#date-format
+      date_format: Jan 2006
+      # Experiences.
+      #   Add/remove as many `experience` items below as you like.
+      #   Required fields are `title`, `company`, and `date_start`.
+      #   Leave `date_end` empty if it's your current employer.
+      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+      items:
+        - title: Research Assistant
+          company: Computational Social Science Research Center
+          company_url: ''
+          company_logo: org-gc
+          location: Zhejiang University
+          date_start: '2023-09-01'
+          date_end: ''
+          description: |
+            Responsibilities include:
+
+            * Developing a universal social simulation framework based on large language models
+            * Conducting research on generative multi-agent simulation modeling
+            * Collaborating with team members on various research projects
+
+        - title: Graduate Student
+          company: Department of Sociology
+          company_url: ''
+          company_logo: org-x
+          location: Central South University
+          date_start: '2020-09-01'
+          date_end: '2023-06-30'
+          description: Conducted research in computational sociology
+
+    design:
+      columns: '2'
+
+  - block: collection
+    id: projects
+    content:
+      title: Projects
+      filters:
+        folders:
+          - project
+    design:
+      columns: '2'
+      view: card
   #   design:
   #     view: citation
   # - block: collection
