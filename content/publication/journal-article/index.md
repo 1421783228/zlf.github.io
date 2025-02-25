@@ -20,6 +20,7 @@ publication_short: ""
 abstract: |
   The paper focuses on agent-based modeling (ABM) of high-rise building fires, specifically analyzing the self-rescue behaviors of individuals during such disasters. The research examines a case study based on the Grenfell Tower fire in 2017, simulating various fire dynamics and crowd evacuations to understand the role of self-rescue strategies in reducing fatalities and injuries. The model integrates multiple factors, such as the spread of fire, the design of the building, evacuation strategies, and the use of survival skills.
 
+
   Key findings include:
 
   a. Self-Rescue Skills: Individuals' self-rescue skills significantly reduce deaths and injuries. Evacuation behavior, including how quickly individuals can respond to fire information, plays a crucial role.
@@ -30,6 +31,7 @@ abstract: |
 
   d. Fire Protection Design: Proper building design, including fireproof materials and efficient evacuation routes, is essential for preventing large-scale casualties in high-rise fires.
 
+
   The paper suggests that training residents in self-rescue skills and implementing systems like central alarms and fireproof materials can significantly improve evacuation outcomes during high-rise building fires.
 
 tags:
@@ -38,5 +40,5 @@ featured: true
 
 links:
 - name: PDF
-  url: paper.pdf
+  url: '#'
 ---
