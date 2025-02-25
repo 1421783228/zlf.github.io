@@ -32,7 +32,7 @@ d. Fire Protection Design: Proper building design, including fireproof materials
 The paper suggests that training residents in self-rescue skills and implementing systems like central alarms and fireproof materials can significantly improve evacuation outcomes during high-rise building fires.
 
 tags:
-- Agent-based Modeling
+  - Agent-based Modeling
 featured: true
 
 # links:
