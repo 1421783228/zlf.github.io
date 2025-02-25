@@ -39,9 +39,8 @@ tags:
 
 featured: true
 
-
-
+links:
+- name: PDF
+  url: paper.pdf
 
 ---
-
-
