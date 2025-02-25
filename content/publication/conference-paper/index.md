@@ -2,7 +2,7 @@
 title: "Can Professional Rescue Strategies Save More Lives? Agent-Based 3D Modeling of High-Rise Building Fire"
 authors:
 - admin
-date: "2024-05-11T00:00:00Z"
+date: "2025-07-12T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
