@@ -1,6 +1,6 @@
 ---
 title: A Study on Simulation and Extrapolation of Collaborative Governance of Urban Communities under Complex Systems
-date: 2023-11-01
+date: 2024-07-01
 
 # Optional external URL for project (replaces project detail page).
 url: ''
@@ -36,3 +36,7 @@ This project aimed to investigate intelligent collaborative social governance's 
 ### Data Analysis
 - Evolutionary Game Theory
 - Complex Network Dynamics
+
+## Papers
+
+- Facing Crisis: Evacuation Path Optimisation Driven by Individual Experience and Social Learning Dynamics
