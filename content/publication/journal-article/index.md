@@ -40,3 +40,8 @@ links:
 - name: PDF
   url: '#'
 ---
+
+
+{{% callout note %}}
+By simulating rescue strategies for high-rise fires, this paper highlights how optimized firefighter deployment and effective communication can dramatically reduce casualties during catastrophic events.
+{{% /callout %}}
