@@ -35,11 +35,9 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        My past research has focused on agent-based modeling, particularly on the simulation of high-rise building fires and urban flooding, as well as behaviors such as evacuation, cooperation, and competition from a micro-perspective in emergency scenarios. I have published related research in the authoritative journal Engineering Applications of Artificial Intelligence. On the other hand, my recent projects include developing a universal social simulation framework based on large language models and generative multi-agent simulation modeling based on large language models.
         
-        Please reach out to collaborate 😃
+        I am currently actively seeking 2026 PhD positions and research collaborations, so if you have a match, please feel free to contact me via email at 0924A52@zju.edu.cn.😃
     design:
       columns: '1'
 
