@@ -17,7 +17,19 @@ publication_types: ["article-journal"]
 publication: ""
 publication_short: ""
 
-abstract: It is always challenging to seek external rescue assistance in high-rise building fires. Therefore, it is critical for individuals to master survival skills. For crowd dynamics modeling, previous research focused on numerical simulations and building designs with little attention to the self-rescue mechanism. It is critical to understanding crowd evacuations and better response strategies. We modeled the Grenfell Tower (a high-rise building with a complicated structure) case in 2017. Based on the percolation and social force models, we build an agent-based model to simulate individual behaviors inside. We obtain the optimal solution and robust paralleled outcomes under all counterfactual situations based on precisely matching tangible case outcomes (fire duration, deaths, and injuries). For individuals, mastering self-rescue skills is better at reducing social losses (deaths & injuries). In terms of high-rise buildings design, the central alarm system is also useful to reduce them. Besides, the crowd evacuation guided by the social force model also reduces deaths & injuries. This work provides insight into better high-rise building design and practical response strategies for societies. The central alarm system and fire-proof materials should be used in high-rise buildings. The residents should have routine training in social force-based evacuations and survival (self-rescue) skills to better the evacuation process and outcome under natural disasters and social emergencies.
+abstract: The paper focuses on agent-based modeling (ABM) of high-rise building fires, specifically analyzing the self-rescue behaviors of individuals during such disasters. The research examines a case study based on the Grenfell Tower fire in 2017, simulating various fire dynamics and crowd evacuations to understand the role of self-rescue strategies in reducing fatalities and injuries. The model integrates multiple factors, such as the spread of fire, the design of the building, evacuation strategies, and the use of survival skills.
+
+Key findings include:
+
+a. Self-Rescue Skills: Individuals' self-rescue skills significantly reduce deaths and injuries. Evacuation behavior, including how quickly individuals can respond to fire information, plays a crucial role.
+
+b. Central Alarm System: A central alarm system enhances fire awareness, leading to reduced deaths and injuries. However, its impact diminishes as the number of residents increases.
+
+c. Social Force Model: The social force model, which simulates crowd dynamics in evacuation scenarios, reduces casualties significantly compared to random evacuation strategies. This model helps mitigate crowd pushing and shoving, which is common in panic situations.
+
+d. Fire Protection Design: Proper building design, including fireproof materials and efficient evacuation routes, is essential for preventing large-scale casualties in high-rise fires.
+
+The paper suggests that training residents in self-rescue skills and implementing systems like central alarms and fireproof materials can significantly improve evacuation outcomes during high-rise building fires.
 
 
 
