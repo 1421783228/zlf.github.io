@@ -1,8 +1,8 @@
 ---
-title: "Do we believe in ourselves or do we go with the flow when faced with a crisis? -- A study on evacuation strategy selection for multiple destinations."
+title: "Can Professional Rescue Strategies Save More Lives? Agent-Based 3D Modeling of High-Rise Building Fire"
 authors:
 - admin
-date: "2025-07-12T00:00:00Z"
+date: "2024-05-11T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -11,26 +11,28 @@ publishDate: "2017-01-01T00:00:00Z"
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ["paper-conference"]
+publication_types: ["working-paper"]
 
 # Publication name and optional abbreviated publication name.
 publication: ""
 publication_short: ""
 
 abstract: |
-  This paper investigates both self-rescue and professional rescue strategies for high-rise building fires through agent-based modeling (ABM), using the Grenfell Tower fire as a case study. The research explores how different rescue strategies impact casualties and the number of rescued individuals during such fires. The study constructs a 3D ABM simulation, modeling both internal evacuation behaviors and external rescue operations to simulate realistic scenarios.
+  This paper investigates the impact of personal experience and social learning strategies on crowd evacuation during vehicle-ramming attacks. The research employs an agent-based model (ABM) to simulate evacuation processes based on the 2016 Berlin truck attack. The study compares evacuation outcomes using these two strategies, considering various factors such as death and injury rates, evacuation times, and the role of information dissemination.
   <br><br>
   <strong>Key findings include:</strong>
   <br><br>
-  Stay-put Tactic: The stay-put strategy, where residents remain in place during a fire, leads to higher casualties. This finding supports previous research questioning the efficacy of this approach in modern high-rise buildings.
+  Social Learning Reduces Deaths: The social learning strategy, where individuals learn from others' evacuation paths, significantly reduces the number of deaths. This is because it allows people to respond more quickly and evacuate more efficiently by following others' paths to safety.
 
-  Rescue Strategy Optimization: The number of firefighters involved in life-saving tasks significantly affects the outcomes. Increasing the proportion of firefighters assigned to rescue operations leads to a reduction in fatalities and injuries.
+  Increased Injuries with Social Learning: Although fewer people die under the social learning strategy, the number of injuries increases due to higher crowd density on popular evacuation paths, leading to collisions and stampedes.
 
-  Aerial Ladder Impact: The height and arrival time of aerial ladders influence rescue effectiveness. Aerial ladders reaching higher floors and arriving sooner increase the number of lives saved, though premature deployment can disrupt residents' self-evacuation efforts.
+  Evacuation Time: The social learning strategy, particularly in its full form (plenary learning), reduces the evacuation time compared to personal experience-based evacuation. However, the evacuation time difference between partial learning and personal experience is less significant.
 
-  Firefighter Coordination: A strategy prioritizing life-saving tasks over fire suppression proves more effective in saving lives, highlighting the need for optimized coordination among rescue teams.
+  Optimal Social Learning Proportion: The study identifies an optimal proportion of social learners (around 60%), which balances reductions in deaths and injuries, improving evacuation efficiency.
+
+  Path Dynamics: The number of social learners influences the dynamics of evacuation paths. A higher proportion of social learners leads to longer, wider, and more distinct paths, facilitating faster evacuations.
   <br><br>
-  The paper emphasizes the importance of adjusting professional rescue strategies based on fire dynamics to enhance evacuation outcomes and reduce casualties.
+  The paper highlights the importance of balancing speed and safety during evacuations, showing that while social learning can accelerate evacuation and save lives, it also raises the risk of injury. The study calls for incorporating these findings into urban planning and emergency response strategies to improve crowd safety during emergencies.
 
 tags:
   - Agent-based Modeling
@@ -38,41 +40,15 @@ tags:
   - Decision Making
   - Crowd Behavior
   - Emergency Evacuation
+
 featured: true
 
 links:
 - name: PDF
-  url: paper.pdf
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
-  focal_point: ''
-  preview_only: false
-
-# Associated Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `internal-project` references `content/project/internal-project/index.md`.
-#   Otherwise, set `projects: []`.
-projects:
-  - example
-
-# Slides (optional).
-#   Associate this publication with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
-#   Otherwise, set `slides: ""`.
-slides: example
+  url: '#'
 ---
 
-{{% callout note %}}
-Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
 
 {{% callout note %}}
-Create your slides in Markdown - click the _Slides_ button to check out the example.
+Through agent-based simulations, this research uncovers how personal experience and social learning strategies can shape evacuation efficiency and survival rates during vehicle-ramming attacks, with real-world applications for public safety planning.
 {{% /callout %}}
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
