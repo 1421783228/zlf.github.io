@@ -1,8 +1,8 @@
 ---
-title: "Optimizing Self-Rescue and Professional Rescue Strategies in High-Rise Building Fires: A 3D Agent-Based Modeling Study"
+title: "Do we believe in ourselves or do we go with the flow when faced with a crisis? -- A study on evacuation strategy selection for multiple destinations."
 authors:
 - admin
-date: "2024-02-11T00:00:00Z"
+date: "2025-07-12T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -34,6 +34,10 @@ abstract: |
 
 tags:
   - Agent-based Modeling
+  - Crisis Management
+  - Decision Making
+  - Crowd Behavior
+  - Emergency Evacuation
 featured: true
 
 links:

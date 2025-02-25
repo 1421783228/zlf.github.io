@@ -22,13 +22,13 @@ abstract: |
   <br><br>
   <strong>Key findings include:</strong>
   <br><br>
-  <strong>Self-Rescue Skills:</strong> Individuals' self-rescue skills significantly reduce deaths and injuries. Evacuation behavior, including how quickly individuals can respond to fire information, plays a crucial role.
+  Self-Rescue Skills: Individuals' self-rescue skills significantly reduce deaths and injuries. Evacuation behavior, including how quickly individuals can respond to fire information, plays a crucial role.
 
-  <strong>Central Alarm System:</strong> A central alarm system enhances fire awareness, leading to reduced deaths and injuries. However, its impact diminishes as the number of residents increases.
+  Central Alarm System: A central alarm system enhances fire awareness, leading to reduced deaths and injuries. However, its impact diminishes as the number of residents increases.
 
-  <strong>Social Force Model:</strong> The social force model, which simulates crowd dynamics in evacuation scenarios, reduces casualties significantly compared to random evacuation strategies. This model helps mitigate crowd pushing and shoving, which is common in panic situations.
+  Social Force Model: The social force model, which simulates crowd dynamics in evacuation scenarios, reduces casualties significantly compared to random evacuation strategies. This model helps mitigate crowd pushing and shoving, which is common in panic situations.
 
-  <strong>Fire Protection Design:</strong> Proper building design, including fireproof materials and efficient evacuation routes, is essential for preventing large-scale casualties in high-rise fires.
+  Fire Protection Design: Proper building design, including fireproof materials and efficient evacuation routes, is essential for preventing large-scale casualties in high-rise fires.
   <br><br>
   The paper suggests that training residents in self-rescue skills and implementing systems like central alarms and fireproof materials can significantly improve evacuation outcomes during high-rise building fires.
 
@@ -36,6 +36,10 @@ abstract: |
 
 tags:
 - Agent-based Modeling
+- Self-rescue
+- Fire Safety
+- Evacuation
+- Building Design
 
 featured: true
 
