@@ -1,12 +1,8 @@
 ---
-title: "An example journal article"
+title: "Agent-based Modelling of High-Rise Building Fires Reveals Self-Rescue Behaviours and Better Fire Protection Designs."
 authors:
 - admin
-- Robert Ford
-author_notes:
-- "Equal contribution"
-- "Equal contribution"
-date: "2015-09-01T00:00:00Z"
+date: "2023-11-02T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -18,16 +14,25 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Journal of Source Themes, 1*(1)"
+publication: ""
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: The paper focuses on agent-based modeling (ABM) of high-rise building fires, specifically analyzing the self-rescue behaviors of individuals during such disasters. The research examines a case study based on the Grenfell Tower fire in 2017, simulating various fire dynamics and crowd evacuations to understand the role of self-rescue strategies in reducing fatalities and injuries. The model integrates multiple factors, such as the spread of fire, the design of the building, evacuation strategies, and the use of survival skills.
 
-# Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+Key findings include:
+
+a. Self-Rescue Skills: Individuals' self-rescue skills significantly reduce deaths and injuries. Evacuation behavior, including how quickly individuals can respond to fire information, plays a crucial role.
+
+b. Central Alarm System: A central alarm system enhances fire awareness, leading to reduced deaths and injuries. However, its impact diminishes as the number of residents increases.
+
+c. Social Force Model: The social force model, which simulates crowd dynamics in evacuation scenarios, reduces casualties significantly compared to random evacuation strategies. This model helps mitigate crowd pushing and shoving, which is common in panic situations.
+
+d. Fire Protection Design: Proper building design, including fireproof materials and efficient evacuation routes, is essential for preventing large-scale casualties in high-rise fires.
+
+The paper suggests that training residents in self-rescue skills and implementing systems like central alarms and fireproof materials can significantly improve evacuation outcomes during high-rise building fires.
 
 tags:
-- Source Themes
+- Agent-based Modeling
 featured: true
 
 # links:
