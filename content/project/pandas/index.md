@@ -1,6 +1,6 @@
 ---
 title: A Study on Simulation and Extrapolation of Collaborative Governance of Urban Communities under Complex Systems
-date: 2023-10-26
+date: 2023-11-01
 
 # Optional external URL for project (replaces project detail page).
 url: ''
