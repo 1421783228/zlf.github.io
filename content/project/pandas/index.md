@@ -11,7 +11,9 @@ header:
   image: ''
 
 tags:
-  - Co-Lead Researcher
+  - Agent-based Modeling
+  - Complex Systems
+  - Collaborative Governance 
   
 ---
 
