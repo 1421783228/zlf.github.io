@@ -40,6 +40,11 @@ tags:
 
 featured: true
 
+# Featured image settings
+image:
+  preview_only: false
+  quality: 100
+
 links:
 - name: PDF
   url: 'javascript:void(0)'
