@@ -1,5 +1,5 @@
 ---
-title: "Do we believe in ourselves or do we go with the flow when faced with a crisis? -- A study on evacuation strategy selection for multiple destinations."
+title: "Do We Believe in Ourselves or Do We Go with the Flow when Faced with A Crisis? -- A Study on Evacuation Strategy Selection for Multiple Destinations."
 authors:
 - admin
 date: "2024-07-12T00:00:00Z"

@@ -1,5 +1,5 @@
 ---
-title: “AI sociologist” simulator
+title: “AI Sociologist” Simulator
 date: 2023-01-01
 
 # Optional external URL for project (replaces project detail page).

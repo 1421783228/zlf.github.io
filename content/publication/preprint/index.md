@@ -1,5 +1,5 @@
 ---
-title: "Agent-based Modelling of High-Rise Building Fires Reveals Self-Rescue Behaviours and Better Fire Protection Designs. "
+title: "Agent-Based Modelling of High-Rise Building Fires Reveals Self-Rescue Behaviours and Better Fire Protection Designs. "
 authors:
 - admin
 date: "2023-11-02T00:00:00Z"
