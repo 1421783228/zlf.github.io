@@ -1,57 +1,44 @@
 ---
-title: 'An example conference paper'
-
-# Authors
-# If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
-# and it will be replaced with their full name and linked to their profile.
+title: "Optimizing Self-Rescue and Professional Rescue Strategies in High-Rise Building Fires: A 3D Agent-Based Modeling Study"
 authors:
-  - admin
-  - Robert Ford
-
-# Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
-
-date: '2013-07-01T00:00:00Z'
-doi: ''
+- admin
+date: "2024-02-11T00:00:00Z"
+doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2017-01-01T00:00:00Z'
+publishDate: "2017-01-01T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ['paper-conference']
+publication_types: ["paper-conference"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Hugo Blox Builder Conference*
-publication_short: In *ICW*
+publication: ""
+publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: |
+  This paper investigates both self-rescue and professional rescue strategies for high-rise building fires through agent-based modeling (ABM), using the Grenfell Tower fire as a case study. The research explores how different rescue strategies impact casualties and the number of rescued individuals during such fires. The study constructs a 3D ABM simulation, modeling both internal evacuation behaviors and external rescue operations to simulate realistic scenarios.
+  <br><br>
+  <strong>Key findings include:</strong>
+  <br><br>
+  Stay-put Tactic: The stay-put strategy, where residents remain in place during a fire, leads to higher casualties. This finding supports previous research questioning the efficacy of this approach in modern high-rise buildings.
 
-# Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+  Rescue Strategy Optimization: The number of firefighters involved in life-saving tasks significantly affects the outcomes. Increasing the proportion of firefighters assigned to rescue operations leads to a reduction in fatalities and injuries.
+
+  Aerial Ladder Impact: The height and arrival time of aerial ladders influence rescue effectiveness. Aerial ladders reaching higher floors and arriving sooner increase the number of lives saved, though premature deployment can disrupt residents' self-evacuation efforts.
+
+  Firefighter Coordination: A strategy prioritizing life-saving tasks over fire suppression proves more effective in saving lives, highlighting the need for optimized coordination among rescue teams.
+  <br><br>
+  The paper emphasizes the importance of adjusting professional rescue strategies based on fire dynamics to enhance evacuation outcomes and reduce casualties.
 
 tags:
-  - Large Language Models
-
-# Display this page in the Featured widget?
+  - Agent-based Modeling
 featured: true
 
-# Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
-
-url_pdf: ''
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_dataset: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_video: 'https://youtube.com'
+links:
+- name: PDF
+  url: paper.pdf
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
