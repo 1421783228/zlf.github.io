@@ -10,6 +10,8 @@ header:
   caption: ''
   image: ''
 
+featured: true
+
 tags:
   - Artificial Intelligence
   - Reinforcement Learning
